@@ -1,0 +1,5 @@
+real = float(input('Quanto você tem de dinheiro hoje? R$'))
+dollar = (real / 3.87)
+euro = (real / 4.35)
+iene = (real * 28.73)
+print('Você pode comprar U${:.2f}, €{:.2f}, ¥{:.2f} com R${:.2f}'.format(dollar,euro,iene,real))
